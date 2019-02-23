@@ -2,10 +2,10 @@ var playlist = { FalloutBoy: "The Phoenix" };
 
 function updatePlaylist(playlist, artistName, songName) {
   playlist[artistName] = songName;
-  return playlist
+  return playlist;
 }
 
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
-  return playlist
+  return playlist;
 }
